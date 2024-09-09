@@ -93,7 +93,7 @@ class MaxMinDriverClass {
         }
         if (input.charAt(0) == '[' && input.charAt(input.length() - 1) == ']' && input.length()==2) {
 
-            System.out.println(EMPTY_ARRAY_MSG);//if start and end of input do not have brackets
+            System.out.println(EMPTY_ARRAY_MSG);//if start and end of input have brackets but no elements
             return false;
         }
         return true;
